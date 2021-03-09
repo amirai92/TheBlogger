@@ -1,0 +1,13 @@
+
+GET http://localhost:3001/user/fde2e13ec481dfc1 HTTP/1.1
+
+###
+
+POST  http://localhost:3001/user HTTP/1.1
+content-type: application/json
+
+{
+  "email": "amiraizin20@gmail.com",
+  "firstName": "amir",
+  "lastName": "aizin"
+}

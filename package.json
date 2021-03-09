@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.858.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "cross-env DEBUG=* PGPASSWORD=1234567890 PORT=3001 nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
