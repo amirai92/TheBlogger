@@ -3,6 +3,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 
+const post = require("./post");
+s;
 const user = require("./user");
 const initDB = require("./db");
 

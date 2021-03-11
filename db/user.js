@@ -1,18 +1,6 @@
 const { Model, DataTypes } = require("sequelize");
 
 class User extends Model {}
-
-/**
- * @typedef {object} User
- * @property {string} id
- * @property {string} firstName
- * @property {string} lastName
- * @property {string} email
- * @property {string} profilePicture
- * @property {string} birthday
- *
- */
-
 /**
  *
  * @param {Sequelize} sequelize - instance of sequelize

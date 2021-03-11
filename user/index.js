@@ -76,7 +76,7 @@ function init(db) {
       params: { id },
     } = req;
     try {
-      const oldUser = await db.user.findById({ where: { id }, json: true });
+      const oldUser = await db.user.findOne({ where: { id }, json: true });
       if (!oldUser) {
         return next();
       }
