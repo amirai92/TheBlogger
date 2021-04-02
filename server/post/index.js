@@ -121,7 +121,7 @@ function init(db) {
     const { fileName } = req.query;
     const key = `${crypto.randomBytes(8).toString("hex")}-${fileName}`;
     const params = {
-      Bucket: 'amirai-my-first-app',
+      Bucket: 'amir-my-first-app',
       Key: key,
       ACL: 'public-read',
     };
