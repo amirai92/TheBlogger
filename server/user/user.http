@@ -3,9 +3,9 @@ POST  http://localhost:3000/user HTTP/1.1
 content-type: application/json
 
 {
-  "email": "yaki.klein1234@gmail.com",
-  "firstName": "yaki",
-  "lastName": "klein"
+  "email": "amiraizin20@gmail.com",
+  "firstName": "amir",
+  "lastName": "aizin"
 }
 
 ###
@@ -18,7 +18,7 @@ PATCH http://localhost:3000/user/e91940cbb423cae5 HTTP/1.1
 content-type: application/json
 
 {
-  "firstName": "Yaki",
+  "firstName": "Amir",
   "profilePicture": "https://i.stack.imgur.com/Bb6z1.jpg?s=64&g=1"
 }
 
